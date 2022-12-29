@@ -1,0 +1,49 @@
+.work-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 3rem;
+  height: calc(100vh - 9rem);
+}
+
+.col {
+  flex: 1;
+  height: 100%;
+}
+
+.left {
+  font-size: 4rem;
+  letter-spacing: 4px;
+  font-family: "Bangers", cursive;
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.right {
+  overflow-y: auto;
+}
+
+.right h1 {
+  font-family: "Bangers", cursive;
+}
+
+@media (max-width: 970px) {
+  .left {
+    /* flex-direction: row;
+    gap: 0; */
+  }
+  .work-container {
+    gap: 0;
+  }
+
+  .right {
+    overflow-y: inherit;
+  }
+
+  .left h1 {
+    font-size: 3rem;
+  }
+}

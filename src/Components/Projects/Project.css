@@ -1,0 +1,9 @@
+@media (max-width: 970px) {
+  .project-left {
+    order: 1;
+  }
+
+  .project-right {
+    order: 2;
+  }
+}

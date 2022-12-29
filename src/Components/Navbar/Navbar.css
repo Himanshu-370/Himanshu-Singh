@@ -1,0 +1,38 @@
+nav {
+  font-family: "Bangers", cursive;
+}
+
+.logo {
+  background-color: #000;
+  color: white;
+  padding: 0.3rem 0.6rem;
+  font-size: 1.2rem;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-links ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.nav-links ul li {
+  margin-left: 4rem;
+  list-style: none;
+  font-size: 1.2rem;
+  text-decoration: underline;
+  letter-spacing: 3px;
+}
+
+@media screen and (max-width: 500px) {
+  .nav-links ul li {
+    margin-left: 2rem;
+  }
+}

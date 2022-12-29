@@ -1,0 +1,39 @@
+.about-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  padding: 2rem;
+  letter-spacing: 1.5px;
+  font-family: "Roboto Slab", serif;
+  height: calc(100vh - 9rem);
+}
+
+.left img {
+  max-width: 70%;
+  height: auto;
+  border: none;
+  border-radius: 100vmax;
+  scale: 1.1;
+  /* margin-left: 3rem; */
+}
+
+@media (max-width: 1024px) {
+  .right h1 {
+    font-size: 1.3rem;
+  }
+
+  .right h3 {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 970px) {
+  .about-container {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  .left img {
+    width: 40%;
+  }
+}

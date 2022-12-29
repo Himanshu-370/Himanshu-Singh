@@ -1,0 +1,44 @@
+.final-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: calc(100vh - 9rem);
+  gap: 1rem;
+}
+
+.final-container h2 {
+  font-size: 2rem;
+  font-family: "Roboto Slab", serif;
+}
+
+.final-container h1 {
+  font-size: 4rem;
+  letter-spacing: 4px;
+  font-family: "Bangers", cursive;
+}
+
+.final-container p {
+  font-family: "Roboto Slab", serif;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.final-container button {
+  background-color: transparent;
+  border: 1px solid black;
+  border-radius: 100vmax;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  font-family: "Roboto Slab", serif;
+  cursor: pointer;
+}
+
+.final-container button a {
+  color: black;
+}
+
+.final-container button:hover {
+  background-color: var(--bg);
+  color: white;
+}
