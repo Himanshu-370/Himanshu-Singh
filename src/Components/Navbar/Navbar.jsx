@@ -16,6 +16,15 @@ function Navbar() {
           <li>
             <a href="">WORK.</a>
           </li>
+          <li>
+            <a href="">PROJECTS.</a>
+          </li>
+          <li>
+            <a href="">ACHIEVEMENTS.</a>
+          </li>
+          <li>
+            <a href="">SAY HELLO.</a>
+          </li>
         </ul>
       </div>
     </nav>

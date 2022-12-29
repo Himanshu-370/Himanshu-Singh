@@ -6,7 +6,7 @@ function About() {
     <section>
       <div className="about-container">
         <div className="left">
-          <img src="src\assets\img.jpg" alt="" />
+          <img src="src\assets\img.jpg" alt="Himanshu Singh" />
         </div>
         <div
           className="right"
