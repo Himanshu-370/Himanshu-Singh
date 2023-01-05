@@ -20,14 +20,13 @@ function About() {
           <h1 className="head">About Me</h1>
           <br />
           <h3>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis ipsam
-            eum totam animi eaque veritatis at ea iusto aspernatur accusamus
-            provident architecto dolore fugit autem incidunt, quisquam repellat,
-            sint, voluptatem sit aperiam. <br />
+            I am a driven and passionate web development student pursuing my
+            undergraduate at Shiv Nadar University. I have gained valuable
+            experience through coursework in web design and development, as well
+            as through internships at companies such as CvOwl.
             <br />
-            Voluptas blanditiis atque aliquam minus iste. Qui, aspernatur, ut,
-            non vel vitae excepturi pariatur maiores rerum beatae dolore minus
-            earum recusandae.
+            <br />I am excited about the opportunity to apply my skills and
+            knowledge to real-world projects as a professional web developer.
           </h3>
         </div>
       </div>
