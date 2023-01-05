@@ -9,7 +9,7 @@ function Card({ date, name, btn, para1, para2, para3, link }) {
         <h1>{name}</h1>
         <div className="links">
           <button>{btn}</button>
-          <a href={link}>
+          <a href={link} target="_blank">
             <svg
               width="40"
               height="40"
