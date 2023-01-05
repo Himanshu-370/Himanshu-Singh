@@ -12,7 +12,9 @@ function Final() {
         best to get back to you ASAP!
       </p>
       <button>
-        <a href="">Say Hello!</a>
+        <a href="mailto:himanshuich20@gmail.com" target="_blank">
+          Say Hello!
+        </a>
       </button>
     </section>
   );
