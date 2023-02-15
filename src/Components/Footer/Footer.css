@@ -26,3 +26,22 @@ h2 {
     margin-left: 0.6rem;
   }
 }
+
+.social-links button {
+  background-color: transparent;
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  font-family: "Roboto Slab", serif;
+  cursor: pointer;
+}
+
+.social-links button a {
+  color: black;
+}
+
+.social-links button:hover {
+  background-color: var(--bg);
+  color: white;
+}

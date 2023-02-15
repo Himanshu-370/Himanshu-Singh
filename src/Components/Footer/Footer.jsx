@@ -10,6 +10,17 @@ function Footer() {
       <div className="social-links">
         <ul>
           <li>
+            <button>
+              <a
+                href="https://drive.google.com/uc?id=1nz1RF2qw9lO_RHRBnODICv_Q_FQOnkcb&export=pdf"
+                download
+                target="_blank"
+              >
+                Download Resume
+              </a>
+            </button>
+          </li>
+          <li>
             <a href="mailto:himanshuich20@gmail.com" target="_blank">
               <svg
                 width="40"
