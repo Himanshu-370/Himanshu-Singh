@@ -4,7 +4,7 @@ import "./Hero.css";
 function Hero() {
   return (
     <>
-      <section className="hero">
+      <section className="hero" id="hero">
         <div className="bg"></div>
         <div className="name">
           <h2>I'm himanshu singh, i am a</h2>

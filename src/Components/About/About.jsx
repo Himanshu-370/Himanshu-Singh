@@ -3,10 +3,10 @@ import "./About.css";
 
 function About() {
   return (
-    <section>
+    <section id="about">
       <div className="about-container">
         <div className="left">
-          <img src="src/assets/img.jpg" alt="Himanshu Singh" />
+          <img src="src\assets\img.jpg" alt="Himanshu Singh" />
         </div>
         <div
           className="right"

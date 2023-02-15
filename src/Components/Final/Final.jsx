@@ -3,7 +3,7 @@ import "./Final.css";
 
 function Final() {
   return (
-    <section className="final-container">
+    <section className="final-container" id="contact">
       <h2>What's Next?</h2>
       <h1 className="head">Get in touch</h1>
       <p>

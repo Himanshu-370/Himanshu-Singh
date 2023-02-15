@@ -5,25 +5,29 @@ function Navbar() {
   return (
     <nav>
       <div className="logo">
-        <h2>HS.</h2>
+        <h2>
+          <a href="#hero" style={{ color: "white" }}>
+            HS.
+          </a>
+        </h2>
       </div>
 
       <div className="nav-links">
         <ul>
           <li>
-            <a href="">ABOUT.</a>
+            <a href="#about">ABOUT.</a>
           </li>
           <li>
-            <a href="">WORK.</a>
+            <a href="#work">WORK.</a>
           </li>
           <li>
-            <a href="">PROJECTS.</a>
+            <a href="#projects">PROJECTS.</a>
           </li>
           <li>
-            <a href="">ACHIEVEMENTS.</a>
+            <a href="#achievements">ACHIEVEMENTS.</a>
           </li>
           <li>
-            <a href="">SAY HELLO.</a>
+            <a href="#contact">SAY HELLO.</a>
           </li>
         </ul>
       </div>

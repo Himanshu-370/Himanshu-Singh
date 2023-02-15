@@ -4,7 +4,7 @@ import "./Achievements.css";
 
 function Achievements() {
   return (
-    <section className="achievements-container">
+    <section className="achievements-container" id="achievements">
       <h1 className="head">Achievements</h1>
       <div className="content">
         <Card

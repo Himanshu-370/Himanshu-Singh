@@ -5,7 +5,7 @@ function Footer() {
   return (
     <footer>
       <div className="location">
-        <h2>AP, INDIA</h2>
+        <h2>Visakhapatnam-AP, INDIA</h2>
       </div>
       <div className="social-links">
         <ul>

@@ -6,7 +6,7 @@ import "../Card/Card.css";
 
 function Work() {
   return (
-    <section className="about-container work-container">
+    <section className="about-container work-container" id="work">
       <div className="left col">
         <div className="left-head">
           <h1 className="head">work</h1>

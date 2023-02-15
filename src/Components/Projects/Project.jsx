@@ -5,7 +5,7 @@ import Carousel2 from "../Carousel/Carousel2";
 
 function Project() {
   return (
-    <section className="about-container work-container">
+    <section className="about-container work-container" id="projects">
       <div className="right col project-right">
         <Carousel2 />
       </div>
